@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BlogEngine.SelfHost")]
+[assembly: AssemblyTitle("BlogEngine.Cli")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BlogEngine.SelfHost")]
+[assembly: AssemblyProduct("BlogEngine.Cli")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("78580dea-5c7f-4855-bced-062390522e4a")]
+[assembly: Guid("7eb3e525-d763-451c-9dbf-15718e5f0f57")]
 
 // Version information for an assembly consists of the following four values:
 //

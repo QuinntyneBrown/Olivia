@@ -13,7 +13,7 @@ namespace BlogEngine.App_Start
 
         public WebApiUnityActionFilterProvider(IUnityContainer container)
         {
-            this._container = container;
+            _container = container;
         }
 
         public new IEnumerable<FilterInfo> GetFilters(HttpConfiguration configuration, HttpActionDescriptor actionDescriptor)

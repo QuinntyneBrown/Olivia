@@ -37,9 +37,6 @@ namespace BlogEngine.Utils
                 }
             }
         }
-        public List<ILoggerProvider> GetProviders()
-        {
-            throw new NotImplementedException();
-        }
+        public List<ILoggerProvider> GetProviders() => _providers.ToList();
     }
 }
