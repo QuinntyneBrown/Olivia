@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BlogEngine.Services
 {
-    public interface IBlogService
+    public interface IService
     {
         BlogAddOrUpdateResponseDto AddOrUpdate(BlogAddOrUpdateRequestDto request);
         ICollection<BlogDto> Get();

@@ -1,11 +1,11 @@
-﻿using BlogEngine.Config;
-using BlogEngine.Data;
-using BlogEngine.Services;
-using BlogEngine.Utils;
+using PhotoGalleryMicroservice.Config;
+using PhotoGalleryMicroservice.Data;
+using PhotoGalleryMicroservice.Services;
+using PhotoGalleryMicroservice.Utils;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.InterceptionExtension;
 
-namespace BlogEngine
+namespace PhotoGalleryMicroservice
 {
     public class UnityConfiguration
     {
@@ -20,7 +20,7 @@ namespace BlogEngine
             container.RegisterType<ICacheProvider, CacheProvider>();
             container.RegisterType<IEncryptionService, EncryptionService>();
             container.RegisterType<ILogger, Logger>();
-            container.RegisterType<IService, Service>();
+            container.RegisterType<IPhotoService, PhotoService>();
             container.RegisterInstance(AuthConfiguration.LazyConfig);            
             return container;
         }
